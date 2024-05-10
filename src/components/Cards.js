@@ -503,7 +503,7 @@ function Cards(props) {
                 className=" rounded-lg object-bottom object-cover"
               />
               <p className=" absolute  text-white font-semibold pl-3 bottom-2">
-                DICK'S Shopping Goods
+                DICK&apos;S Shopping Goods
               </p>
             </div>
             <div className=" flex space-x-2 items-center">
@@ -539,7 +539,7 @@ function Cards(props) {
                     <Image
                       src={`/images/${ele.photo}`}
                       alt=""
-                      width={500} 
+                      width={500}
                       height={300}
                       className=" w-5 border h-5 rounded-full"
                     />
