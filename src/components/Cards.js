@@ -501,9 +501,11 @@ function Cards(props) {
               </div>
             </div>
             <div className=" h-52 overflow-hidden relative">
-              <img
+              <Image
                 src={`/images/photo12.avif`}
                 alt=""
+                width={500}
+                height={300}
                 className=" rounded-lg object-bottom object-cover"
               />
               <p className=" absolute  text-white font-semibold pl-3 bottom-2">
@@ -533,9 +535,11 @@ function Cards(props) {
                     onMouseLeave={handleMouseLeave}
                     className=" h-40 overflow-hidden relative"
                   >
-                    <img
+                    <Image
                       src={`/images/${ele.photo}`}
                       className=" w-full rounded-t-lg shadow-gray-600"
+                      width={500}
+                      height={300}
                       alt=""
                     />
                     <Image
@@ -591,9 +595,11 @@ function Cards(props) {
                   <div className=" p-3 space-y-2">
                     <div className="flex cursor-pointer space-x-2">
                       <div>
-                        <img
-                          src={`../images/${ele.logo}`}
+                        <Image
+                          src={`/images/${ele.logo}`}
                           alt=""
+                          width={500}
+                          height={300}
                           className=" w-5 border h-5 rounded-full"
                         />
                       </div>
