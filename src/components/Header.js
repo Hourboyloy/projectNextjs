@@ -4,6 +4,7 @@ import Aos from "aos";
 import "aos/dist/aos.css";
 import Weather from "@/API/weather";
 import Link from "next/link";
+import Image from "next/image";
 function Header(props) {
   const { catchValueInput, handleCatchValueInput } = props;
   useEffect(() => {
@@ -91,9 +92,11 @@ function Header(props) {
                   className="sm:w-9/12 w-10/12 lg:w-7/12  xl:w-2/6 form relative"
                 >
                   <button className="absolute left-2 -translate-y-1/2 top-1/2 p-1">
-                    <img
+                    <Image
                       src={`/images/google.png`}
                       alt=""
+                      width={300}
+                      height={300}
                       className=" rounded-full w-7"
                     />
                   </button>

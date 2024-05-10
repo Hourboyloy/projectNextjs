@@ -33,12 +33,6 @@ function Cards(props) {
             data-aos="fade-up"
             className="isHoverStyle w-full col sm:col-span-2 h-72 overflow-hidden rounded-lg relative"
           >
-            {/* <img
-              src={`/images/slide/${arrayImage[currentIndex]}`}
-              className="w-full h-72 object-cover object-center transition-all duration-75"
-              alt=""
-              layout="responsive"
-            /> */}
             <Image
               src={`/images/slide/${arrayImage[currentIndex]}`}
               alt=""
@@ -545,8 +539,8 @@ function Cards(props) {
                     <Image
                       src={`/images/${ele.photo}`}
                       alt=""
-                      width={500} // Set the width of the image
-                      height={300} // Set the height of the image
+                      width={500} 
+                      height={300}
                       className=" w-5 border h-5 rounded-full"
                     />
                     <div className="responsiveforlaptop hidden w-full h-full duration-75 rounded-lg transition-all items-center absolute hover:inset-0  hover:bg-gray-800  hover:bg-opacity-50 z-10 top-0">
